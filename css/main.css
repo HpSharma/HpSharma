@@ -13,6 +13,7 @@ body {
     justify-content: center;
     gap: 50px;
     height: 100vh;
+    flex-wrap: wrap-reverse;
 }
 
 .intro-container .self-image {
@@ -60,7 +61,7 @@ body {
     position: relative;
 }
 
-.project-container .card button {
+.project-container .card a {
     border: none;
     outline: 0;
     padding: 12px;
@@ -73,10 +74,12 @@ body {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    padding: 10px 0px;
+    text-decoration: none;
 }
 
-.card button:hover {
-    opacity: 0.7;
+.card a:hover {
+    opacity: 0.8;
 }
 
 .project-heading {
