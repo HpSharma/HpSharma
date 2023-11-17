@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-container {
+    background-color: #a3a2a2;
+    text-align: center;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+.intro-container .self-image {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.intro-container .self-image img {
+    border-radius: 10px;
+}
+
+.intro-container .self-intro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+}
+
+.intro-container .self-intro h2 {
+    margin: 0px;
+}
+
+.intro-container .self-intro p {
+    font-size: 18px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.project-container .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    background-color: #fff;
+    height: 470px;
+    position: relative;
+}
+
+.project-container .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.project-heading {
+    margin: 50px;
+}
+
+.project-heading h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #494949;
+    margin: 5px;
+    font-size: 24px;
+    display: flex;
+    gap: 15px;
+}
+
+footer .end {
+    text-align: center;
+}
